@@ -63,10 +63,10 @@ nav.navbar {
 
 /*banner*/
 header .banner {
-	background: url('https://cnet2.cbsistatic.com/img/aRDQHMdS5CtzcnYeMOpiSuOrnXg=/1600x900/2018/08/19/17f22092-c68d-420d-bbcb-85a4ca818323/taipei-101-opener-1-of-1.jpg')
-		70% no-repeat;
-	background-position: top;
-	background-size: 100%;
+	background: url('https://cnet2.cbsistatic.com/img/aRDQHMdS5CtzcnYeMOpiSuOrnXg=/1600x900/2018/08/19/17f22092-c68d-420d-bbcb-85a4ca818323/taipei-101-opener-1-of-1.jpg');
+	/* 100% no-repeat; */
+	background-position: bottom;
+	background-size: cover;
 	height: 55%;
 	position: relative;
 	z-index: -10;
@@ -395,4 +395,8 @@ footer h2 {
 	.badge4 {
 		flex-direction: column;
 	}
+}
+
+.tech {
+	text-align: center;
 }
